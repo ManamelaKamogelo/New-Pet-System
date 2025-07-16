@@ -177,7 +177,11 @@ namespace New_Pet_System
             // Implement notification logic here (email, SMS, etc.)
             Console.WriteLine($"Notification sent to User ID {userId}: {message}");
         }
-    
+
+        protected System.Void submit_Click(System.Object sender, System.EventArgs e)
+        {
+
+        }
     }
 
     
